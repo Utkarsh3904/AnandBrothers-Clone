@@ -4,7 +4,7 @@ const Career = () => {
   return (
     <div className="min-h-screen  bg-blue-50"> 
       {/* Header Section */}
-      <div className=" bg-blue-900 text-white py-16 ">
+      <div className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16 ">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Careers</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
@@ -55,7 +55,7 @@ Anand Brothers is a company with full of opportunities and exposure to learning.
 
         {/* Current Vacancies */}
         <div className="bg-white rounded-2xl shadow-lg overflow-hidde mb-4">
-          <div className="bg-blue-900 rounded-lg text-white py-6 px-8">
+          <div className="bg-gradient-to-r from-blue-900  to-blue-700 rounded-lg text-white py-6 px-8">
             <h2 className="text-3xl font-bold">Current Vacancies</h2>
           </div>
 

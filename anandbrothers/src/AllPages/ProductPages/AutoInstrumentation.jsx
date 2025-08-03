@@ -1,0 +1,106 @@
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+import { ChevronRight } from "lucide-react";
+
+const CustomProductPage = ({ 
+  breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "Products", href: "/product" },
+    { label: "An=utoimmunity", current: true }
+  ],
+  categoryTitle = "Autoimmunity",
+  subCategoryTitle = "AutoInstrumentation",
+  contentSections = [
+    {
+      id: 1,
+      title: "Blue Diver ANA25 Quantrix - Fully automated processing via BlueDiver Instrument and analysis via Dr. Dot Software",
+      description : "Fully automated processing via BlueDiver Instrument and analysis via Dr. Dot Software The BlueDiver Instrument has been conceived to comply with the CE IVD recommendations and major laboratory accreditation requirements. BlueDiver ANA25 Quantrix First Fully Quantitative ANA determination via micro Immunodot:",
+      hasDetailButton: false
+    }
+  ]
+}) => {
+  const [activeSection, setActiveSection] = useState(null);
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header with Breadcrumb */}
+      <div className="bg-blue-900 py-8 px-6">
+        <div className="max-w-7xl mx-auto">
+          {/* Breadcrumb Navigation */}
+          <div className="mb-8 text-left">
+            <nav className="flex items-center space-x-2 text-lg font-semibold">
+              {breadcrumbItems.map((item, index) => (
+                <React.Fragment key={index}>
+                  {item.current ? (
+                    <span className="text-white text-xl font-bold">
+                      {item.label}
+                    </span>
+                  ) : (
+                    <Link 
+                      to={item.href}
+                      className="text-white text-xl font-bold hover:text-blue-200 transition-colors duration-300 underline hover:no-underline"
+                    >
+                      {item.label}
+                    </Link>
+                  )}
+                  {index < breadcrumbItems.length - 1 && (
+                    <ChevronRight className="text-white w-5 h-5 mx-1" />
+                  )}
+                </React.Fragment>
+              ))}
+            </nav>
+          </div>
+          
+          {/* Category Title */}
+          <h1 className="text-4xl font-bold text-white text-left">
+            {categoryTitle} &gt; {subCategoryTitle}
+          </h1>
+        </div>
+      </div>
+
+      {/* Main Content Area */}
+      <div className="max-w-7xl mx-auto px-6 py-8">
+        <div className="space-y-6">
+          {contentSections.map((section, index) => (
+            <div
+              key={section.id}
+              className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-md transition-shadow duration-300"
+            >
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4 text-left">
+                    {section.title}
+                  </h3>
+                  {section.description && (
+                    <div className="text-gray-700 leading-relaxed text-left">
+                      {section.description.split('\n').map((paragraph, pIndex) => (
+                        <p key={pIndex} className="mb-2 last:mb-0">
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                
+                {section.hasDetailButton && (
+                  <div className="ml-6 flex-shrink-0">
+                    <button 
+                      className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors duration-300 font-medium"
+                      onClick={() => setActiveSection(section.id)}
+                    >
+                      Detail
+                    </button>
+                  </div>
+                )}
+              </div>
+
+            </div>
+          ))}
+          
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CustomProductPage;

@@ -11,8 +11,7 @@ export default function ContactUs() {
         </h1>
         
         {/* Underline decoration */}
-        <div className="w-90 h-1 bg-blue-600 mx-auto mb-12"></div>
-  
+        <div className="w-90 h-1 bg-blue-800 mx-auto mb-10  rounded-xl"></div>
         <div className="relative flex items-top justify-center min-h-[360px] rounded-2xl bg-white sm:items-center sm:pt-0">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-12">
                 <div className="mt-2 overflow-hidden">

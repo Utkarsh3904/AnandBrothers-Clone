@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 
-const CustomProductPage = ({ 
+const Analytical = ({ 
   breadcrumbItems = [
     { label: "Home", href: "/" },
     { label: "Products", href: "/product" },
@@ -160,4 +160,4 @@ const CustomProductPage = ({
   );
 };
 
-export default CustomProductPage;
+export default Analytical;

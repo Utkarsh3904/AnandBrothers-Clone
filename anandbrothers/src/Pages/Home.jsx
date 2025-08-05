@@ -347,7 +347,7 @@ export default function Home() {
             <div className="absolute-bottom-2 -right-4 w-full h-48 bg-blue-800 rounded-xl z-10 hidden sm:hidden"></div>
 
             {/* Video - On top */ }
-            <div className="relative z-20 w-4/5 md:w-2/5 h-48 sm:h-56 md:h-72 rounded-xl overflow-hidden shadow-2xl">
+            <div className="relative z-20  w-4/5 md:w-2/5 h-48 sm:h-56 md:h-72 rounded-xl overflow-hidden shadow-2xl">
               <video
                 className="w-full h-full object-cover rounded-xl"
                 autoPlay

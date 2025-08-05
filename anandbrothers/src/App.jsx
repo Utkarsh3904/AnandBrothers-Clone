@@ -1,41 +1,41 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './Layout';  // Adjust path if needed
-import Home from './Pages/Home';  // Your Home page component
-import Product from './Pages/Product'; // The Schedule page component
-import FeaturedProduct from './Pages/FeaturedProduct'; // Featured Products page
-import QuickOrder from './Pages/QuickOrder'; // Quick Order page
-import Career from './Pages/Career'; // Career page
-import ContactUs from './Pages/ContactUs'; // Contact Us page
-import AboutUs from './Pages/AboutUs'; // About Us page
+import Layout from './Layout.jsx'
+import Home from './Pages/Home';
+import Product from './Pages/Product';
+import FeaturedProduct from './Pages/FeaturedProduct';
+import QuickOrder from './Pages/QuickOrder';
+import Career from './Pages/Career';
+import ContactUs from './Pages/ContactUs';
+import AboutUs from './Pages/AboutUs';
 
-import Hplckits from './AllPages/ProductPages/Hplckits';
-import Lcmskits from './AllPages/ProductPages/Lcmskits';
-import Controls from './AllPages/ProductPages/Controls.jsx';
-import Elisa from './AllPages/ProductPages/Elisa';
-import Ifa from './AllPages/ProductPages/Ifa';
-import Immunodot from './AllPages/ProductPages/Immunodot';
-import AutoInstrumentation from './AllPages/ProductPages/AutoInstrumentation';
-import Typhoid from './AllPages/ProductPages/Typhoid';
-import Mycology from './AllPages/ProductPages/Mycology';
-import InfectiousDisease from './AllPages/ProductPages/InfectiousDisease';
-import Virology from './AllPages/ProductPages/Virology';
-import MolecularBiology from './AllPages/ProductPages/MolecularBiology';
-import FertilityandReproduction from './AllPages/ProductPages/FertilityandReproduction';
-import ThyroidFunction from './AllPages/ProductPages/ThyroidFunction';
+import CustomProductPage from './AllPages/ProductPages/Hplckits';
+import CustomProductPage from './AllPages/ProductPages/Lcmskits';
+import CustomProductPage from './AllPages/ProductPages/Controls.jsx';
+import CustomProductPage from './AllPages/ProductPages/Elisa';
+import CustomProductPage from './AllPages/ProductPages/Ifa';
+import CustomProductPage  from './AllPages/ProductPages/Immunodot';
+import CustomProductPage  from './AllPages/ProductPages/AutoInstrumentation';
+import CustomProductPage  from './AllPages/ProductPages/Typhoid';
+import CustomProductPage  from './AllPages/ProductPages/Mycology';
+import CustomProductPage  from './AllPages/ProductPages/InfectiousDisease';
+import CustomProductPage  from './AllPages/ProductPages/Virology';
+import CustomProductPage  from './AllPages/ProductPages/MolecularBiology';
+import CustomProductPage  from './AllPages/ProductPages/FertilityandReproduction';
+import CustomProductPage  from './AllPages/ProductPages/ThyroidFunction';
 
-import Analytical from './AllPages/ProductPages/Analytical'
-import Autoimmunity from './AllPages/ProductPages/Autoimmunity'
-import Microbiology from './AllPages/ProductPages/Microbiology'
-import Endocrinology from './AllPages/ProductPages/Endocrinology'
-import Gastroenterology from './AllPages/ProductPages/Gastroenterology'
-import Instrumentation from './AllPages/ProductPages/Instrumentation'
+import CustomProductPage  from './AllPages/ProductPages/Analytical'
+import CustomProductPage  from './AllPages/ProductPages/Autoimmunity'
+import CustomProductPage  from './AllPages/ProductPages/Microbiology'
+import CustomProductPage  from './AllPages/ProductPages/Endocrinology'
+import CustomProductPage  from './AllPages/ProductPages/Gastroenterology'
+import CustomProductPage  from './AllPages/ProductPages/Instrumentation'
 
-import Calfast from './AllPages/FeatureProductPages/Calfast'
-import BlueDiver from './AllPages/FeatureProductPages/BlueDiver'
-import Premier from './AllPages/FeatureProductPages/Premier.jsx'
-import Fungitell from './AllPages/FeatureProductPages/Fungitell'
-import Paxview from './AllPages/FeatureProductPages/Paxview'
-import Typhiwell from './AllPages/FeatureProductPages/Typhiwell'
+import  Calfast from './AllPages/FeatureProductPages/Calfast'
+import  BlueDiver from './AllPages/FeatureProductPages/BlueDiver'
+import  Premier from './AllPages/FeatureProductPages/Premier'
+import  Fungitell from './AllPages/FeatureProductPages/Fungitell'
+import  Paxview from './AllPages/FeatureProductPages/Paxview'
+import  Typhiwell from './AllPages/FeatureProductPages/Typhiwell'
 
 
 
@@ -57,27 +57,27 @@ function App() {
             <Route path="contact-us" element={<ContactUs />} />
             <Route path="about-us" element={<AboutUs />} />
 
-            <Route path="/product/hplckits" element={<Hplckits />} />
-            <Route path="/product/lcmskits" element={<Lcmskits/>} />
-            <Route path="/product/controls" element={<Controls/>} />
-            <Route path="/product/elisa" element={<Elisa/>} />
-            <Route path="/product/ifa" element={<Ifa/>} />
-            <Route path="/product/immunodot" element={<Immunodot/>} />
-            <Route path="/product/autoinstrumrntation" element={<AutoInstrumentation/>} />
-            <Route path="/product/typhoid" element={<Typhoid/>} />
-            <Route path="/product/mycology" element={<Mycology/>} />
-            <Route path="/product/infectiousdisease" element={<InfectiousDisease/>} />
-            <Route path="/product/virology" element={<Virology/>} />
-            <Route path="/product/molecularbiology" element={<MolecularBiology />} />
-            <Route path="/product/fertilityandreproduction" element={<FertilityandReproduction/>} />
-            <Route path="/product/thyroidfunction" element={<ThyroidFunction/>} />
+            <Route path="/product/hplckits" element={<CustomProductPage/>} />
+            <Route path="/product/lcmskits" element={<CustomProductPage/>} />
+            <Route path="/product/controls" element={<CustomProductPage/>} />
+            <Route path="/product/elisa" element={<CustomProductPage/>} />
+            <Route path="/product/ifa" element={<CustomProductPage/>} />
+            <Route path="/product/immunodot" element={<CustomProductPage/>} />
+            <Route path="/product/autoinstrumentation" element={<CustomProductPage/>} />
+            <Route path="/product/typhoid" element={<CustomProductPage/>} />
+            <Route path="/product/mycology" element={<CustomProductPage/>} />
+            <Route path="/product/infectiousdisease" element={<CustomProductPage/>} />
+            <Route path="/product/virology" element={<CustomProductPage/>} />
+            <Route path="/product/molecularbiology" element={<CustomProductPage />} />
+            <Route path="/product/fertilityandreproduction" element={<CustomProductPage/>} />
+            <Route path="/product/thyroidfunction" element={<CustomProductPage/>} />
 
-            <Route path="/product/analytical" element={<Analytical/>}/>
-            <Route path="/product/autoimmunity" element={<Autoimmunity/>}/>
-            <Route path="/product/microbiology" element={< Microbiology/>}/>
-            <Route path="/product/endocrinology" element={<Endocrinology/>}/>
-            <Route path="/product/gastroenterology" element={<Gastroenterology/>}/>
-            <Route path="/product/instrumentation" element={<Instrumentation/>}/>
+            <Route path="/product/analytical" element={<CustomProductPage/>}/>
+            <Route path="/product/autoimmunity" element={<CustomProductPage/>}/>
+            <Route path="/product/microbiology" element={<CustomProductPage/>}/>
+            <Route path="/product/endocrinology" element={<CustomProductPage/>}/>
+            <Route path="/product/gastroenterology" element={<CustomProductPage/>}/>
+            <Route path="/product/instrumentation" element={<CustomProductPage/>}/>
 
             <Route path="/product/calfast" element = {<Calfast/>}/>
             <Route path="/product/bluediver" element = {<BlueDiver/>}/>

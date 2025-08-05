@@ -48,7 +48,7 @@ export default function ContactUs() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-90">
-                                    Anand House, 5  Behind Milan Cinema, Karampura, New Delhi – 110015. India
+                                    ABCD Karampura, New Delhi - 110015. India
                                 </div>
                             </div>
 
@@ -70,7 +70,7 @@ export default function ContactUs() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +44 1234567890
+                                    +99 1234567890
                                 </div>
                             </div>
 
@@ -92,7 +92,7 @@ export default function ContactUs() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    info@anandbrothers.org
+                                    info@anandbrother.org
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ export default function ContactUs() {
                                     name="name"
                                     id="name"
                                     placeholder="Full Name"
-                                    className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-blue-500 focus:outline-none"
+                                    className="w-94 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-blue-500 focus:outline-none"
                                 />
                             </div>
 
@@ -120,7 +120,7 @@ export default function ContactUs() {
                                     name="email"
                                     id="email"
                                     placeholder="Email"
-                                    className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-blue-500 focus:outline-none"
+                                    className="w-94 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-blue-500 focus:outline-none"
                                 />
                             </div>
 
@@ -133,7 +133,7 @@ export default function ContactUs() {
                                     name="tel"
                                     id="tel"
                                     placeholder="Telephone Number"
-                                    className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-blue-500 focus:outline-none"
+                                    className="w-94 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-blue-500 focus:outline-none"
                                 />
                             </div>
 

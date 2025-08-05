@@ -203,8 +203,8 @@ const Calfast = () => {
             </div>
 
             {/* How it Works */}
-            <div className="bg-blue-50 rounded-xl p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-left">How Calfast XT Works</h3>
+            <div className="bg-blue-50 rounded-xl p-8 mb-8">
+              <h3 className="text-2xl font-bold text-gray-900  text-left">How Calfast XT Works</h3>
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <p className="text-gray-700 leading-relaxed text-left mb-4">
@@ -284,7 +284,7 @@ const Calfast = () => {
             </div>
 
             {/* Procedure Section */}
-            <div className="bg-gray-100 rounded-xl p-8">
+            <div className="bg-gray-100 rounded-xl mb-8 p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-left">Procedure Outline</h3>
               <div className="space-y-3">
                 {procedureSteps.map((step, index) => (

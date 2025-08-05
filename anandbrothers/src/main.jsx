@@ -14,11 +14,11 @@ import AboutUs from './Pages/AboutUs';
 
 import Hplckits from './AllPages/ProductPages/Hplckits';
 import Lcmskits from './AllPages/ProductPages/Lcmskits';
-import Controls from './AllPages/ProductPages/Controls.jsx';
+import Controls from './AllPages/ProductPages/Controls';
 import Elisa from './AllPages/ProductPages/Elisa';
 import Ifa from './AllPages/ProductPages/Ifa';
 import Immunodot from './AllPages/ProductPages/Immunodot';
-import AutoInstrumentation from './AllPages/ProductPages/AutoInstrumentation.jsx';
+import AutoInstrumentation from './AllPages/ProductPages/AutoInstrumentation';
 import Typhoid from './AllPages/ProductPages/Typhoid';
 import Mycology from './AllPages/ProductPages/Mycology';
 import InfectiousDisease from './AllPages/ProductPages/InfectiousDisease';
@@ -35,11 +35,11 @@ import Gastroenterology from './AllPages/ProductPages/Gastroenterology'
 import Instrumentation from './AllPages/ProductPages/Instrumentation'
 
 import Calfast from './AllPages/FeatureProductPages/Calfast'
-import BlueDiver from './AllPages/FeatureProductPages/BlueDiver.jsx'
-import Premier from './AllPages/FeatureProductPages/Premier.jsx'
-import Fungitell from './AllPages/FeatureProductPages/Fungitell.jsx'
-import Paxview from './AllPages/FeatureProductPages/Paxview.jsx'
-import Typhiwell from './AllPages/FeatureProductPages/Typhiwell.jsx'
+import BlueDiver from './AllPages/FeatureProductPages/BlueDiver'
+import Premier from './AllPages/FeatureProductPages/Premier'
+import Fungitell from './AllPages/FeatureProductPages/Fungitell'
+import Paxview from './AllPages/FeatureProductPages/Paxview'
+import Typhiwell from './AllPages/FeatureProductPages/Typhiwell'
 
 
 import {  Route, RouterProvider, createBrowserRouter , createRoutesFromElements} from 'react-router-dom'

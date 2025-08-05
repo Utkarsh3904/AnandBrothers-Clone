@@ -14,7 +14,7 @@ import AboutUs from './Pages/AboutUs';
 
 import Hplckits from './AllPages/ProductPages/Hplckits';
 import Lcmskits from './AllPages/ProductPages/Lcmskits';
-import Controls from './AllPages/ProductPages/Controls';
+import Controls from './AllPages/ProductPages/Controls.jsx';
 import Elisa from './AllPages/ProductPages/Elisa';
 import Ifa from './AllPages/ProductPages/Ifa';
 import Immunodot from './AllPages/ProductPages/Immunodot';

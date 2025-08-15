@@ -17,7 +17,7 @@ import Immunodot from './AllPages/ProductPages/Immunodot';
 import AutoInstrumentation from './AllPages/ProductPages/AutoInstrumentation';
 import Typhoid from './AllPages/ProductPages/Typhoid';
 import Mycology from './AllPages/ProductPages/Mycology';
-import InfectiousDisease from './AllPages/ProductPages/InfectiousDisease';
+import InfectiousDisease from './AllPages/ProductPages/Infectiousdisease';
 import Virology from './AllPages/ProductPages/Virology';
 import MolecularBiology from './AllPages/ProductPages/MolecularBiology';
 import FertilityandReproduction from './AllPages/ProductPages/FertilityandReproduction';

@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen = false, onToggle }) => {
     { icon: Star, label: 'Featured Products', href: '/featuredproduct' },
     { icon: Zap, label: 'Quick Order', href: '/quick-order' },
     { icon: Briefcase, label: 'Careers', href: '/careers' },
-    { icon: Info, label: 'About Us', href: '/aboutUs' },
+    { icon: Info, label: 'About Us', href: '/aboutus' },
     { icon: PhoneCall, label: 'Contact Us', href: '/contactus' },
   ];
 

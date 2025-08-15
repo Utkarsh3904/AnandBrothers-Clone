@@ -20,7 +20,7 @@ import Immunodot from './AllPages/ProductPages/Immunodot';
 import AutoInstrumentation from './AllPages/ProductPages/AutoInstrumentation';
 import Typhoid from './AllPages/ProductPages/Typhoid';
 import Mycology from './AllPages/ProductPages/Mycology';
-import InfectiousDisease from './AllPages/ProductPages/InfectiousDisease';
+import InfectiousDisease from './AllPages/ProductPages/Infectiousdisease';
 import Virology from './AllPages/ProductPages/Virology';
 import MolecularBiology from './AllPages/ProductPages/MolecularBiology';
 import FertilityandReproduction from './AllPages/ProductPages/FertilityandReproduction';
@@ -46,12 +46,12 @@ const router = createBrowserRouter(
   createRoutesFromElements(
   <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />  
-      <Route path='product' element={<Product />} />
-      <Route path='featuredproduct' element={<FeaturedProduct />} />
-      <Route path='quick-order' element={<QuickOrder />} />
-      <Route path='careers' element={<Career />} />
-      <Route path='contactus' element={<ContactUs />} />
-      <Route path='aboutus' element={<AboutUs />} />
+      <Route path='/product' element={<Product />} />
+      <Route path='/featuredproduct' element={<FeaturedProduct />} />
+      <Route path='/quick-order' element={<QuickOrder />} />
+      <Route path='/careers' element={<Career />} />
+      <Route path='/contactus' element={<ContactUs />} />
+      <Route path='/aboutus' element={<AboutUs />} />
       
       <Route path="/product/hplckits" element={<Hplckits />} />
       <Route path="/product/lcmskits" element={<Lcmskits/>} />

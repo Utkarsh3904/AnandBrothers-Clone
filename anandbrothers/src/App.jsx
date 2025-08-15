@@ -10,7 +10,7 @@ import AboutUs from './Pages/AboutUs';
 
 import Hplckits from './AllPages/ProductPages/Hplckits';
 import Lcmskits from './AllPages/ProductPages/Lcmskits';
-import Controls from './AllPages/ProductPages/controls'; 
+import Controls from './AllPages/ProductPages/Controls'; 
 import Elisa from './AllPages/ProductPages/Elisa';
 import Ifa from './AllPages/ProductPages/Ifa';
 import Immunodot from './AllPages/ProductPages/Immunodot';
@@ -50,12 +50,12 @@ function App() {
           <Route path="/" element={<Layout />}>
             {/* Nested routes rendered inside Layout's <Outlet /> */}
             <Route path='' element={<Home />} />  
-            <Route path='product' element={<Product />} />
-            <Route path='featuredproduct' element={<FeaturedProduct />} />
-            <Route path='quick-order' element={<QuickOrder />} />
-            <Route path='careers' element={<Career />} />
-            <Route path='contactus' element={<ContactUs />} />
-            <Route path='aboutus' element={<AboutUs />} />
+            <Route path='/product' element={<Product />} />
+            <Route path='/featuredproduct' element={<FeaturedProduct />} />
+            <Route path='/quick-order' element={<QuickOrder />} />
+            <Route path='/careers' element={<Career />} />
+            <Route path='/contactus' element={<ContactUs />} />
+            <Route path='/aboutus' element={<AboutUs />} />
             
             <Route path="/product/hplckits" element={<Hplckits />} />
             <Route path="/product/lcmskits" element={<Lcmskits/>} />

@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 // import FeaturedProduct from './FeatureProduct';
 import myVideo from '../assets/myvideo.mp4';
 import typhifast from '../assets/typhifast.png';
-import Typhiwell from '../assets/Typhiwell.jpg';
+import Typhiwell from '../assets/typhiwell.jpg';
 import dnahelix from '../assets/dnahelix.png';
 import bottomimage from '../assets/bottomimage.png';
 import topimage from '../assets/topimage.png';

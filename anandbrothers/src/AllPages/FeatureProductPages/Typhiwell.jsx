@@ -1,5 +1,5 @@
 import React from 'react';
-import typhiwell from '../../assets/typhiwell.jpg'
+import typhiwell from '../../assets/Typhiwell.jpg'
 import typhiwell1 from '../../assets/typhiwell1.jpg'
 import { ChevronRight, Clock, Target, FlaskConical, Microscope, Activity, CheckCircle, Award, Zap, Users, Globe, AlertTriangle } from "lucide-react";
 

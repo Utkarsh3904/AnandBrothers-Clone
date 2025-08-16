@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './App'
 import './index.css'
-import Layout from './Layout.jsx'
+import Layout from './Layout'
 import Home from './Pages/Home';
 import Product from './Pages/Product';
 import FeaturedProduct from './Pages/FeaturedProduct';
@@ -13,7 +13,7 @@ import AboutUs from './Pages/AboutUs';
 
 import Hplckits from './AllPages/ProductPages/Hplckits';
 import Lcmskits from './AllPages/ProductPages/Lcmskits';
-import Controls from './AllPages/ProductPages/Controls.jsx'; 
+import Controls from './AllPages/ProductPages/controls'; 
 import Elisa from './AllPages/ProductPages/Elisa';
 import Ifa from './AllPages/ProductPages/Ifa';
 import Immunodot from './AllPages/ProductPages/Immunodot';

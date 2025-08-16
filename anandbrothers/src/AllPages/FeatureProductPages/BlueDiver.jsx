@@ -4,7 +4,6 @@ import { ChevronRight, Clock, Target, FlaskConical, Microscope, Activity, CheckC
 import bluedivertab from '../../assets/bluedivertab.jpg';
 import bluediverFeatures from '../../assets/blue1.jpg';
 import bluediverApplication from '../../assets/about3.jpg';
-// import bluediverVideo from '../../assets/myvideo.mp4';
 
 const Bluediver = () => {
   const [activeTab, setActiveTab] = useState('ana25');

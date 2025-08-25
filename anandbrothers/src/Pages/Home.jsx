@@ -83,7 +83,6 @@ const settings = {
   ]
 };
 
-
 const MedicalProductCarousel = () => {
   return (
     <div className="w-full mt-5 mb-3 mx-auto py-4 sm:py-8 px-4 sm:px-12">
@@ -315,7 +314,7 @@ export default function Home() {
           <div className="space-y-4 sm:space-y-10">
             <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold px-2 sm:px-5"
             >
-              Built on 40+ Years of Trusted Life Sciences Solutions
+              Built on 400+ Years of Trusted Life Sciences Solutions
             </h1>
             <h2 className="text-sm sm:text-lg md:text-xl font-medium"
             style={{ fontFamily: "Author, sans-serif" }}>
@@ -334,7 +333,7 @@ export default function Home() {
       </div>
 
       {/* Info Section */}
-      <div className="mt-16 sm:mt-20 lg:mt-70 mb-8 sm:mb-16 lg:mb-30 mx-auto w-full max-w-9xl">
+      <div className="mt-16 sm:mt-20 lg:mt-70 mb-8 sm:mb-16 lg:mb-14 mx-auto w-full max-w-9xl">
         <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
           <div className="relative w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-4">
           {/* Container */}

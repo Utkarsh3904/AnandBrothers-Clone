@@ -314,7 +314,7 @@ export default function Home() {
           <div className="space-y-4 sm:space-y-10">
             <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold px-2 sm:px-5"
             >
-              Built on 400+ Years of Trusted Life Sciences Solutions
+              Built on 40+ Years of Trusted Life Sciences Solutions
             </h1>
             <h2 className="text-sm sm:text-lg md:text-xl font-medium"
             style={{ fontFamily: "Author, sans-serif" }}>
